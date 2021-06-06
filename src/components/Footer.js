@@ -1,9 +1,9 @@
 import React from 'react'
+import '../css/Footer.css'
 
 const Footer = (props) => {
     return (
         <footer>
-            <p>I am the footer, find me in <code>components/Footer.js</code>.</p>
         </footer>
     )
 }

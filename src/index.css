@@ -24,6 +24,13 @@ code {
   padding: 2px;
   font-size: inherit;
 }
+
+/* Shared CSS for Components Should Go Here*/
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* Fallback for lazy loading*/
 #loading {
   color: red;
