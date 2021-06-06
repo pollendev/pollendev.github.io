@@ -1,0 +1,2 @@
+(this["webpackJsonppollendev.github.io"]=this["webpackJsonppollendev.github.io"]||[]).push([[7],{14:function(t,e,n){"use strict";n.r(e);n(1),n(48);var o=n(0);e.default=function(t){return Object(o.jsx)("footer",{})}},48:function(t,e,n){}}]);
+//# sourceMappingURL=7.1f86c103.chunk.js.map
