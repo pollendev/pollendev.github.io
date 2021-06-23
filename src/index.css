@@ -1,0 +1,38 @@
+:root {
+  --primary: #01579b;
+  --primary-light: #4f83cc;
+  --primary-dark: #002f6c;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-light);
+  height: 100%;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 2px;
+  font-size: inherit;
+}
+
+/* Shared CSS for Components Should Go Here*/
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Fallback for lazy loading*/
+#loading {
+  color: red;
+  text-align: center;
+}
